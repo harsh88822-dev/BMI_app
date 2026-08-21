@@ -1,0 +1,15 @@
+flutter_native_splash:
+  color: "#F4F5F7"
+  image: "assets/logo-removebg-preview-5608ed11-2dc5-4338-a1bc-1aa9201ad955.png"
+  branding: "assets/logo-removebg-preview-5608ed11-2dc5-4338-a1bc-1aa9201ad955.png"
+  branding_bottom_padding: 44
+  android_gravity: center
+  ios_content_mode: scaleAspectFit
+  android: true
+  ios: true
+  web: false
+  android_12:
+    color: "#F4F5F7"
+    image: "assets/logo-removebg-preview-5608ed11-2dc5-4338-a1bc-1aa9201ad955.png"
+    icon_background_color: "#F4F5F7"
+    branding: "assets/logo-removebg-preview-5608ed11-2dc5-4338-a1bc-1aa9201ad955.png"

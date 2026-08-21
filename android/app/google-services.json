@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "638168031743",
+    "project_id": "clockwork-bmi",
+    "storage_bucket": "clockwork-bmi.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638168031743:android:b8dcf3c7051a47efbc07ca",
+        "android_client_info": {
+          "package_name": "com.clockworkbmi.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI_E3HhmcycVoJ277XvYaHy2qwsexT35g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -5,10 +5,12 @@ Version: `1.0.1` (build `2`) — from `pubspec.yaml`
 Team: `5TD7B79GK6` (same as AR plugin example; change in Xcode if your Apple team differs)
 
 ## Prerequisites
-1. Mac with Xcode 15+ and an Apple Developer account that owns `com.clockworkbmi`
-2. Sign in to Xcode → Settings → Accounts
-3. Confirm Team ID matches `DEVELOPMENT_TEAM` in `ios/Runner.xcodeproj`
-4. Physical iPhone with ARKit (A12+). Simulator cannot run AR height
+1. Mac with **Xcode 26+** (App Store requires iOS 26 SDK since Apr 28, 2026)
+2. Apple Developer account that owns `com.clockworkbmi`
+3. Sign in to Xcode → Settings → Accounts
+4. Confirm Team ID matches `DEVELOPMENT_TEAM` in `ios/Runner.xcodeproj`
+5. Physical iPhone with ARKit (A12+). Simulator cannot run AR height
+6. Deployment target: **iOS 15.5+** (runs on iOS 15.5 through latest iOS)
 
 ## Build & upload (recommended)
 

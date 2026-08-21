@@ -46,7 +46,9 @@ subprojects {
     }
 }
 
-// 2. Configure compileSdkVersion during afterEvaluate (registered BEFORE subproject evaluation starts)
+// Compile plugins against API 36 (same as app). Do NOT force targetSdk/minSdk
+// on library modules — that can break third-party plugins and is not required
+// for Play compliance (only the app module's targetSdk matters).
 subprojects {
     afterEvaluate {
         val android = extensions.findByType<com.android.build.gradle.BaseExtension>()

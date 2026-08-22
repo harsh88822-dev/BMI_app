@@ -24,7 +24,7 @@ A Flutter plugin for shared AR experiences supporting Android and iOS.
   # resolved with current ML Kit pods. ARCore 1.51 uses their compatible 4.x
   # and 3.x dependency lines respectively.
   s.dependency 'ARCore/CloudAnchors', '~> 1.51.0'
-  s.platform = :ios, '13.0'
+  s.platform = :ios, '15.5'
 
 
   # Flutter.framework does not contain a i386 slice.

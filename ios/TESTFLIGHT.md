@@ -1,14 +1,25 @@
 # iOS / TestFlight — Clockwork BMI
 
 Bundle ID: `com.clockworkbmi`  
-Version: `1.0.1` (build `2`) — from `pubspec.yaml`  
-Team: `5TD7B79GK6` (same as AR plugin example; change in Xcode if your Apple team differs)
+Version: from `pubspec.yaml` (currently `1.0.2+3`)  
+Team: set in `ios/Flutter/Team.xcconfig` (each developer uses their own Team ID)
+
+## One-time setup (all developers)
+
+**Read first:** [DEVELOPER_SETUP.md](DEVELOPER_SETUP.md)
+
+```bash
+./ios/setup.sh
+cp ios/Flutter/Team.xcconfig.example ios/Flutter/Team.xcconfig
+# Edit Team.xcconfig with your Apple Team ID
+open ios/Runner.xcworkspace
+```
 
 ## Prerequisites
 1. Mac with **Xcode 26+** (App Store requires iOS 26 SDK since Apr 28, 2026)
 2. Apple Developer account that owns `com.clockworkbmi`
 3. Sign in to Xcode → Settings → Accounts
-4. Confirm Team ID matches `DEVELOPMENT_TEAM` in `ios/Runner.xcodeproj`
+4. Set Team ID in `ios/Flutter/Team.xcconfig` (see example file)
 5. Physical iPhone with ARKit (A12+). Simulator cannot run AR height
 6. Deployment target: **iOS 15.5+** (runs on iOS 15.5 through latest iOS)
 

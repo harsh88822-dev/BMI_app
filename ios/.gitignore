@@ -27,6 +27,9 @@ Flutter/flutter_export_environment.sh
 ServiceDefinitions.json
 Runner/GeneratedPluginRegistrant.*
 
+# Per-developer signing (each Mac uses its own Team ID).
+Flutter/Team.xcconfig
+
 # Exceptions to above rules.
 !default.mode1v3
 !default.mode2v3

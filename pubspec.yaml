@@ -77,6 +77,11 @@ dependency_overrides:
 # The following section is specific to Flutter packages.
 flutter:
 
+  # This app's iOS plugins use CocoaPods. Keep SwiftPM disabled so Firebase is
+  # not linked a second time through FlutterGeneratedPluginSwiftPackage.
+  config:
+    enable-swift-package-manager: false
+
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
